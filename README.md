@@ -2,7 +2,7 @@
 
 Pose Detection 기반 실시간 낙상 감지 시스템
 AI Hub 낙상사고 동작 데이터셋을 활용한 시계열 기반 딥러닝 모델링
-[포트폴리오](https://www.canva.com/design/DAG6VPfi1V8/az-BmGZOqpGrYBh_L_1uRQ/edit?utm_content=DAG6VPfi1V8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 
 ## 프로젝트 개요
 시계열 기반 Pose 변화를 분석하여 낙상 위험을 조기 감지
@@ -28,19 +28,6 @@ AI Hub 낙상사고 동작 데이터셋을 활용한 시계열 기반 딥러닝 
 1. LSTM 기반 Baseline 구축
 2. ST-GCN 기반 고도화
 
-
-| 카테고리 | 기술 | 용도 |
-|---------|------|------|
-| **언어** | Python 3.8+ | 전체 개발 |
-| **데이터 처리** | Pandas, NumPy | 데이터 전처리, EDA |
-| **머신러닝** | TensorFlow/Keras | LSTM 시계열 모델 |
-| | Scikit-learn | 전처리, 평가 지표 |
-| | XGBoost | 트리 기반 모델 비교 |
-| **모델 튜닝** | GridSearchCV | 하이퍼파라미터 최적화 |
-| **해석도구** | SHAP (Shapley) | 특성 중요도, 모델 설명가능성 |
-| **시각화** | Matplotlib | 정적 그래프 (손실 곡선, 산점도) |
-| | Seaborn | 통계 시각화 (히트맵, 분포도) |
-| | Plotly | 대시보드 스타일 상호작용 차트 |
 
 ## 전처리 및 특징
 
