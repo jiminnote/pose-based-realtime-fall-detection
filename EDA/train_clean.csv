@@ -1,4 +1,4 @@
-sample_id,class,image_dir,video_dir,sensor_dir
+scene_id,class,image_dir,video_dir,sensor_dir
 02181_H_A_N_C1,N/N,../data/train/raw/image/N/N/02181_H_A_N_C1,../data/train/raw/video/N/N/02181_H_A_N_C1,../data/train/raw/sensor/N/N/02181_H_A_N_C1
 02117_H_A_N_C6,N/N,../data/train/raw/image/N/N/02117_H_A_N_C6,../data/train/raw/video/N/N/02117_H_A_N_C6,../data/train/raw/sensor/N/N/02117_H_A_N_C6
 02497_H_A_N_C5,N/N,../data/train/raw/image/N/N/02497_H_A_N_C5,../data/train/raw/video/N/N/02497_H_A_N_C5,../data/train/raw/sensor/N/N/02497_H_A_N_C5

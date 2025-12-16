@@ -1,0 +1,25 @@
+numpy>=1.23,<2
+pandas>=1.5
+tqdm>=4.66
+opencv-python>=4.8
+scikit-learn>=1.3
+joblib>=1.3
+matplotlib>=3.7
+
+# For Korean text rendering on video overlays (optional; fallback exists)
+pillow>=10
+
+# For skeleton extraction
+mediapipe>=0.10
+
+# mediapipe/protobuf compatibility (fixes: MessageFactory has no attribute GetPrototype)
+protobuf<5
+
+# mediapipe runtime tends to be sensitive to major bumps
+absl-py<2
+
+# Skeleton extraction (MediaPipe). If you hit
+# `AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'`
+# pin protobuf < 5.
+mediapipe>=0.10.9,<0.11
+protobuf<5
